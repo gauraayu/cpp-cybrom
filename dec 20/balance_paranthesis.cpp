@@ -4,7 +4,7 @@ using namespace std;
 int Balance(string &a)
 {
     int n=a.length();
-
+// cb=curly braces , p=paranthesis, sqb=sq bracket
     int cb=0, p=0, sqb=0;
     for(int i=0; i<n; ++i)
     {
